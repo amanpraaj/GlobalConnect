@@ -9,6 +9,7 @@
             "backgroundImageConfig" : "",
             "backgroundImageOverlay" : "rgba(0,0,0,0)",
             "componentSpacerSize" : "",
+            "dxpStyle" : { },
             "layoutDirectionDesktop" : "row",
             "layoutDirectionMobile" : "column",
             "layoutDirectionTablet" : "column",
@@ -37,6 +38,7 @@
                 "contentPadding" : "none",
                 "contentPosition" : "center center",
                 "contentWidth" : 50,
+                "dxpStyle" : { },
                 "height" : 450,
                 "imageFit" : "cover",
                 "imageInfo" : "{\"imageInfoV1\":{\"url\":\"/sfsites/c/cms/delivery/media/MCIGPNSJNH2VFHHL6UU6OLCL4J54?lastModifiedDate=Fri Feb 27 19:07:52 GMT 2026\",\"altText\":\"\",\"contentKey\":\"MCIGPNSJNH2VFHHL6UU6OLCL4J54\",\"contentType\":null}}",
@@ -52,6 +54,7 @@
                 "children" : [ {
                   "attributes" : {
                     "backgroundColor" : "",
+                    "dxpStyle" : { },
                     "isLinkable" : false,
                     "linkAssistiveText" : "",
                     "paddingHorizontal" : "none",
@@ -67,6 +70,7 @@
                 }, {
                   "attributes" : {
                     "backgroundColor" : "",
+                    "dxpStyle" : { },
                     "isLinkable" : false,
                     "linkAssistiveText" : "",
                     "paddingHorizontal" : "none",
@@ -88,6 +92,7 @@
                 "children" : [ {
                   "attributes" : {
                     "alignment" : "center",
+                    "dxpStyle" : { },
                     "size" : "standard",
                     "stretch" : "standard",
                     "text" : "{!Label.c.HeroButton}",
@@ -105,6 +110,7 @@
                 "children" : [ {
                   "attributes" : {
                     "alignment" : "center",
+                    "dxpStyle" : { },
                     "size" : "standard",
                     "stretch" : "standard",
                     "text" : "Contact Us",
@@ -120,7 +126,9 @@
                 "type" : "region"
               }, {
                 "children" : [ {
-                  "attributes" : { },
+                  "attributes" : {
+                    "dxpStyle" : { }
+                  },
                   "definition" : "dxp_page_layout:placeHolder",
                   "id" : "0172ddbc-d447-4931-b0d6-c4017d4048af",
                   "type" : "component"
@@ -159,6 +167,7 @@
           "attributes" : {
             "customHeadTags" : "",
             "description" : "",
+            "dxpStyle" : { },
             "pageTitle" : "Home",
             "recordId" : "{!recordId}"
           },

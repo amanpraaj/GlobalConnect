@@ -38,6 +38,12 @@
             "sectionVerticalAlign" : "flex-start"
           },
           "children" : [ {
+            "children" : [ {
+              "attributes" : { },
+              "definition" : "c:gcCommanHeader",
+              "id" : "4db75110-0b0e-4c75-94fd-3a07edd3b8fe",
+              "type" : "component"
+            } ],
             "id" : "02b61d82-2f00-4e62-a586-971013f43ba8",
             "name" : "headerSection",
             "title" : "Theme Header",
@@ -57,6 +63,7 @@
             "backgroundImageConfig" : "",
             "backgroundImageOverlay" : "rgba(0,0,0,0)",
             "componentSpacerSize" : "",
+            "dxpStyle" : { },
             "layoutDirectionDesktop" : "row",
             "layoutDirectionMobile" : "column",
             "layoutDirectionTablet" : "column",
