@@ -1,0 +1,30 @@
+<template>
+    <header class="gc-header-bar slds-grid slds-align-center slds-p-around_medium">
+        <div class="gc-header-left slds-grid slds-align-center">
+            <img src={logoUrl} alt="Logo" class="gc-header-logo" />
+            <span class="gc-header-title">{labels.headerTitle}.</span>
+        </div>
+
+        <div class="gc-header-center">
+            <div class="gc-header-search">
+                <input type="text" class="gc-header-search-input" placeholder={labels.searchUser} />
+            </div>
+        </div>
+
+        <div class="gc-header-right slds-grid slds-align-center">
+            <template if:true={isLoggedIn}>
+                <div class="gc-header-user slds-grid slds-align-center">
+                    <span class="gc-header-user-greet">{labels.welcomeGreet}</span>
+                    <span class="gc-header-user-name">{userName}</span>
+                    <lightning-avatar src={userAvatar} fallback-icon-name="standard:user" size="medium" class="gc-header-user-avatar"></lightning-avatar>
+                    <button class="gc-header-user-menu slds-button slds-button_icon" title="User Menu">
+                        <svg width="20" height="20" viewBox="0 0 20 20" fill="none"><path d="M5 8l5 5 5-5" stroke="#222" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/></svg>
+                    </button>
+                </div>
+            </template>
+            <template if:false={isLoggedIn}>
+                <lightning-button variant="brand" label={labels.loginLabel} onclick={handleLogin} class="gc-header__button"></lightning-button>
+            </template>
+        </div>
+    </header>
+</template>

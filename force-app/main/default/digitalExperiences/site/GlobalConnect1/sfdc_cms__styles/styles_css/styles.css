@@ -1,0 +1,29 @@
+/*
+ * Your global styles here
+ */
+
+:root{
+    --gc-primary-color: rgb(186, 80, 246);
+}
+
+.btn{
+    background-color: var(--gc-primary-color);
+    color: white;
+    border: none;
+    padding: 0.5rem 1rem;
+    border-radius: 4px;
+    cursor: pointer;
+}
+
+html,
+body {
+    height: 100%;
+}
+
+html {
+    background: white;
+}
+
+body {
+    margin: 0;
+}

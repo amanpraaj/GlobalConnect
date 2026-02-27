@@ -1,0 +1,99 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomLabels xmlns="http://soap.sforce.com/2006/04/metadata">
+    <labels>
+        <fullName>HeaderTitle</fullName>
+        <categories>GlobalConnect</categories>
+        <language>en_US</language>
+        <protected>true</protected>
+        <shortDescription>App header title</shortDescription>
+        <value>GlobalConnect Chat</value>
+    </labels>
+    <labels>
+        <fullName>LanguageSpanish</fullName>
+        <categories>GlobalConnect</categories>
+        <language>es</language>
+        <protected>true</protected>
+        <shortDescription>Spanish option</shortDescription>
+        <value>Español</value>
+    </labels>
+    <labels>
+        <fullName>LanguageFrench</fullName>
+        <categories>GlobalConnect</categories>
+        <language>fr</language>
+        <protected>true</protected>
+        <shortDescription>French option</shortDescription>
+        <value>Français</value>
+    </labels>
+    <labels>
+        <fullName>LanguageGerman</fullName>
+        <categories>GlobalConnect</categories>
+        <language>de</language>
+        <protected>true</protected>
+        <shortDescription>German option</shortDescription>
+        <value>Deutsch</value>
+    </labels>
+    <labels>
+        <fullName>Login</fullName>
+        <categories>GlobalConnect</categories>
+        <language>en_US</language>
+        <protected>true</protected>
+        <shortDescription>Login button label</shortDescription>
+        <value>Login</value>
+    </labels>
+    <labels>
+        <fullName>Logout</fullName>
+        <categories>GlobalConnect</categories>
+        <language>en_US</language>
+        <protected>true</protected>
+        <shortDescription>Logout button label</shortDescription>
+        <value>Logout</value>
+    </labels>
+    <labels>
+        <fullName>HeroButton</fullName>
+        <categories>GlobalConnect</categories>
+        <language>en_US</language>
+        <protected>true</protected>
+        <shortDescription>Hero Button</shortDescription>
+        <value>Get Start</value>
+    </labels>
+    <labels>
+        <fullName>LanguageEnglish</fullName>
+        <categories>GlobalConnect</categories>
+        <language>en_US</language>
+        <protected>true</protected>
+        <shortDescription>English option</shortDescription>
+        <value>English</value>
+    </labels>
+    <labels>
+        <fullName>SelectLanguage</fullName>
+        <categories>GlobalConnect</categories>
+        <language>en_US</language>
+        <protected>true</protected>
+        <shortDescription>Language dropdown label</shortDescription>
+        <value>Select Language</value>
+    </labels>
+    <labels>
+        <fullName>WelcomeMessage</fullName>
+        <categories>GlobalConnect</categories>
+        <language>en_US</language>
+        <protected>true</protected>
+        <shortDescription>Homepage welcome</shortDescription>
+        <value>Welcome to GlobalConnect!</value>
+    </labels>
+    <labels>
+        <fullName>WelcomeGreet</fullName>
+        <categories>GlobalConnect</categories>
+        <language>en_US</language>
+        <protected>true</protected>
+        <shortDescription>Header welcome greeting</shortDescription>
+        <value>Hi, Welcome</value>
+    </labels>
+    <labels>
+        <fullName>SearchUser</fullName>
+        <categories>GlobalConnect</categories>
+        <language>en_US</language>
+        <protected>true</protected>
+        <shortDescription>Search user input placeholder</shortDescription>
+        <value>Search User</value>
+    </labels>
+</CustomLabels>
